@@ -56,9 +56,13 @@ h1 {
 h3 {
     font-size: 24px;
 }
+a:link {
+    text-decoration: none;
+}
 .menu a:hover {
     color: rgb(211, 38, 139);
-    cursor: pointer;
+    cursor: pointer;  
+    text-decoration: underline;
 }
 #contactButton:hover {
     background-color: rgb(26, 108, 155);
@@ -76,6 +80,7 @@ h3 {
 }
 #portfolioPage a:hover {
     color: rgb(211, 38, 139);
+    text-decoration: underline;
 }
 #portfolioPage img:hover {
     -moz-box-shadow: 0 0 10px #ccc;
@@ -83,7 +88,7 @@ h3 {
     box-shadow: 0 0 10px #ccc;
 }
 .contacts a:hover {
-    color: rgb(26, 108, 155);
+    text-decoration: underline;
 }
 .menu {
     display: flex;
@@ -232,7 +237,7 @@ h3 {
 .contactType {
     margin-left: 30px;
     font-size: 30px;
-    color:  rgb(211, 38, 139);
+    color: rgb(211, 38, 139);
 }
 #emailContact {
     display: flex;
