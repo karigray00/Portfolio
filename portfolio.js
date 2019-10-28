@@ -4,6 +4,7 @@ function showSection(idToShow) {
     sectionIds.forEach((sectionId) => {
         if (sectionId === idToShow) {
             $('#' + idToShow).show();
+            $('.menu').css('visibility','visible');
         }
         else {
             $('#' + sectionId).hide();
@@ -13,7 +14,7 @@ function showSection(idToShow) {
 
 function setupPage() {
     showSection('startPage');
-    event.preventDefault();
+    $('.menu').css('visibility','hidden');
 }
 
 
