@@ -9,7 +9,7 @@ button {
     font-family: 'Gentium Basic', serif;
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 500px;
+    margin-bottom: 600px;
 }
 #portfolioButton, #contactButton {
     background-color: rgb(211, 38, 139);
@@ -56,6 +56,9 @@ h3 {
 }
 a:link {
     text-decoration: none;
+}
+button:hover {
+    background-color: rgb(26, 108, 155);
 }
 .menu a:hover {
     color: rgb(211, 38, 139);
