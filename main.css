@@ -80,7 +80,7 @@ a:link {
     color: rgb(211, 38, 139);
     text-decoration: underline;
 }
-#portfolioPage img:hover {
+#gitHubRepoIcon:hover {
     -moz-box-shadow: 0 0 10px #ccc;
     -webkit-box-shadow: 0 0 10px #ccc;
     box-shadow: 0 0 10px #ccc;
