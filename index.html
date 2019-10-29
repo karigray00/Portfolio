@@ -9,7 +9,8 @@
     <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link href="main.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster+Two|Gentium+Basic|Open+Sans&amp;display=swap&amp;_cacheOverride=1572148858415" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Basic&display=swap" rel="stylesheet">
     <script src="./jquery-3.4.1.min.js"></script>
     <title>Kari Johnson</title>
 </head>
@@ -43,7 +44,7 @@
                     but also seek to compound on existing knowledge. I am excited and energized by the ability to create different tools 
                     that improve the lives of others. This passion, along with my love of learning, is what originally led me to seek a 
                     fulfilling career as a front-end web developer.</p>
-                <input type="button" class="button" id="portfolioButton" onclick="showSection('portfolioPage')"value="PORTFOLIO">
+                <input type="button" class="button" id="portfolioButton" onclick="showSection('portfolioPage')" value="PORTFOLIO">
                 <input type="button" class="button" id="contactButton" onclick="showSection('contactPage')" value="CONTACT ME">
             </div>
         </section>
@@ -51,10 +52,10 @@
         <section id="portfolioPage">
             <div class="pageHeader">
                 <h1 id="portfolioTitle">PORTFOLIO</h1>
-                <input class="backArrow" type="image" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')"></input>
+                <input class="backArrow" type="image" alt="back arrow" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')">
             </div>
             <div id="eivContainer" class="projectContainer">                      
-                <img id="eivImage" alt="EIV Quiz image" src="Images/2019-10-22 17_33_06-EIV Quiz.jpg" height="424" width="580">
+                <img id="eivImage" alt="EIV Quiz image" src="Images/EIVQuizScreenshot.jpg" height="424" width="580">
                 <div class="projectInfo">
                     <h4 class="projectTitle">ENTERPRISE INCOME VERIFICATION (EIV) QUIZ</h4>
                     <p class="projectDescription">This is a quiz that tests the basic knowledge of HUD’s Enterprise Income Verification System, 
@@ -62,7 +63,7 @@
                     <p class="projectTechnology">* HTML * CSS * JAVASCRIPT * JQUERY</P>
                 </div>  
                 <ul class="projectLinks">
-                    <li id="quizAppGithubLink"><a href="https://github.com/karigray00/EIV-Quiz-Assignment" target="_blank"><img id="gitHubRepoIcon" src="./Images/GitHub-Mark-32px.png" height="40" width="40"></a></li>
+                    <li id="quizAppGithubLink"><a href="https://github.com/karigray00/EIV-Quiz-Assignment" target="_blank"><img id="gitHubRepoIcon" alt="gitHub icon" src="./Images/GitHub-Mark-32px.png" height="40" width="40"></a></li>
                     <li> | </li>
                     <li id="quizAppLiveLink"><a href="https://karigray00.github.io/EIV-Quiz-Assignment/" target="_blank">Live Demo</a></li>
                 </ul>
@@ -72,12 +73,11 @@
         <section id="contactPage">
             <div class="pageHeader">
                 <h1 id="contactTitle">CONTACT ME</h1>
-                <input class="backArrow" type="image" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')"></input>
+                <input class="backArrow" type="image" alt="back arrow" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')">
             </div>
             <div class="contact">
                 <ul class="contacts">
-                    <li id="phoneContact"><img class="contactImage" alt="phone icon" src="Images/Phone.png" height="50" width="50"><a href="tel:16513872350"><span id="phoneNumber" class="contactType">(651)387-2350</span></a></li>
-                    <li id="emailContact"><img class="contactImage" alt="email icon" src="Images/Email.png" width="50" height="50"/><a href="mailto:karigray00@gmail.com"><span id="emailAddress" class="contactType">KariGray00@gmail.com</span><a/></li>
+                    <li id="emailContact"><img class="contactImage" alt="email icon" src="Images/Email.png" width="50" height="50"/><a href="mailto:karigray00@gmail.com"><span id="emailAddress" class="contactType">KariGray00@gmail.com</span></a></li>
                     <li id="gitHubContact"><img class="contactImage" alt="github logo" src="Images/GitHub-Mark-32px.png" width="50" height="50"><a href="https://github.com/karigray00" target="_blank"><span id="gitHubLink" class="contactType">GitHub Portfolio</span></a></li>
                     <li id="linkedInContact"><img class="contactImage" alt="linkedin logo" src="Images/LinkedIn.png" width="50" height="50"><a href="https://www.linkedin.com/in/kari-gray-67156056" target="_blank"><span id="linkedInLink" class="contactType">LinkedIn Profile</span></a></li>
                 </ul>
