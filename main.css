@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+.navBar {
+    visibility: hidden;
+}
 button {
     background-color: rgb(211, 38, 139);
     color: white;
@@ -171,7 +174,7 @@ button:hover {
     background-color: #123c69;
     width: 80%;
     max-width: 850px;
-    margin: 30px auto; 
+    margin: 20px auto; 
 }
 #portfolioTitle {
     margin: 0px auto;
