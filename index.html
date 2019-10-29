@@ -4,20 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster+Two|Gentium+Basic|Open+Sans&amp;display=swap&amp;_cacheOverride=1572148858415" rel="stylesheet">
     <script src="./jquery-3.4.1.min.js"></script>
     <title>Kari Johnson</title>
 </head>
 <body>
-    <nav role="navigation" class="navBar">
+    <nav class="navBar">
         <div class="menu">
             <a id="aboutMeNav" onclick="showSection('aboutMePage')">About Me</a>
             <a id="portfolioNav" onclick="showSection('portfolioPage')">Portfolio</a>
             <a id="contactNav" onclick="showSection('contactPage')">Contact</a>
         </div>
     </nav>
-    <main role= "main" class="container">
+    <main class="container">
 <!--Header-->
         <header class="header">
             <div id="outerHeader">
@@ -26,7 +30,7 @@
         </header>
 <!--Start Page-->
         <section id="startPage">
-            <button type="image" id="startButton" onclick="showSection('aboutMePage')">Nice to meet you.</button>
+            <button type="button" id="startButton" onclick="showSection('aboutMePage')">Nice to meet you.</button>
         </section>
 <!--About Me Page-->
         <section id="aboutMePage">
