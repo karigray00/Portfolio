@@ -235,7 +235,7 @@ button:hover {
     background-color: #123c69;
     width: 80%;
     max-width: 850px;
-    margin: 20px auto; 
+    margin: 20px auto 200px; 
     padding-bottom: 50px;
 }
 #contactTitle {
