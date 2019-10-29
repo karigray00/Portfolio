@@ -232,7 +232,7 @@ button:hover {
     background-color: #123c69;
     width: 80%;
     max-width: 850px;
-    margin: 30px auto; 
+    margin: 20px auto; 
     padding-bottom: 50px;
 }
 #contactTitle {
@@ -247,19 +247,14 @@ button:hover {
 .contacts {
     display: flex;
     flex-direction: column;
-    border: solid black 5px;
+    border: solid black 3px;
     width: 80%;
     max-width: 570px;
-    margin: auto;
+    margin: 30px auto;
     list-style: none;
     color: rgb(26, 108, 155);
     padding: 50px 70px;
     background-color: white;
-}
-
-#phoneContact {
-   display: flex;
-   margin-bottom: 20px;
 }
 .contactType {
     margin-left: 30px;
@@ -396,13 +391,13 @@ h3 {
     line-height: 50px;
 }
 .contact {
-    padding: 10px;
+    padding: 0px;
 }
 .contacts {
     border: solid #123C69 2px;
     width: 95%;
     max-width: 300px;
-    padding: 0 20px;
+    padding: 20px;
 }
 .contactImage {
     width: 30px;
@@ -411,10 +406,6 @@ h3 {
 .contactType {
     margin-left: 10px;
     font-size: 16px;
-}
-#phoneContact {
-   margin-bottom: 20px;
-   margin-top: 20px;
 }
 #emailContact {
     margin-bottom: 20px;
@@ -521,7 +512,7 @@ h3 {
     line-height: 100px;
 }
 .contact {
-    padding: 20px;
+    padding: 10px;
 }
 .contacts {
     width: 90%;
@@ -531,10 +522,6 @@ h3 {
 .contactType {
     margin-left: 20px;
     font-size: 24px;
-}
-#phoneContact {
-    margin-bottom: 20px;
-    margin-top: 20px;
 }
 #emailContact {
     margin-bottom: 20px;
