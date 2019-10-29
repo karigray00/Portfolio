@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="main.css" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Lobster+Two|Gentium+Basic|Open+Sans&amp;display=swap&amp;_cacheOverride=1572148858415" rel="stylesheet">
-    <title>Kari Johnson</title>
     <script src="./jquery-3.4.1.min.js"></script>
+    <title>Kari Johnson</title>
 </head>
 <body>
     <nav role="navigation" class="navBar">
@@ -30,22 +30,24 @@
         </section>
 <!--About Me Page-->
         <section id="aboutMePage">
-            <div id="aboutMeHeader"><h1 id="aboutMeTitle">A LITTLE BIT ABOUT ME</h1></div>
-            <h3 id="aboutMeSubtitle">My name is Kari Johnson</h3>
-            <p id="aboutMeContent">From learning to speak Somali to playing bass guitar to digging into that 
-                new technology I read about the other day on Medium - I love to learn. 
-                I believe that a successful front-end web developer must always strive to learn new technologies, 
-                but also seek to compound on existing knowledge. I am excited and energized by the ability to create different tools 
-                that improve the lives of others. This passion, along with my love of learning, is what originally led me to seek a 
-                fulfilling career as a front-end web developer.</p>
-            <input type="button" class="button" id="portfolioButton" onclick="showSection('portfolioPage')"value="PORTFOLIO">
-            <input type="button" class="button" id="contactButton" onclick="showSection('contactPage')" value="CONTACT ME">
+            <div id="solidBorder">
+                <div id="aboutMeHeader"><h1 id="aboutMeTitle">A LITTLE BIT ABOUT ME</h1></div>
+                <h3 id="aboutMeSubtitle">My name is Kari Johnson</h3>
+                <p id="aboutMeContent">From learning to speak Somali to playing bass guitar to digging into that 
+                    new technology I read about the other day on Medium - I love to learn. 
+                    I believe that a successful front-end web developer must always strive to learn new technologies, 
+                    but also seek to compound on existing knowledge. I am excited and energized by the ability to create different tools 
+                    that improve the lives of others. This passion, along with my love of learning, is what originally led me to seek a 
+                    fulfilling career as a front-end web developer.</p>
+                <input type="button" class="button" id="portfolioButton" onclick="showSection('portfolioPage')"value="PORTFOLIO">
+                <input type="button" class="button" id="contactButton" onclick="showSection('contactPage')" value="CONTACT ME">
+            </div>
         </section>
 <!--Portfolio Page-->
         <section id="portfolioPage">
             <div class="pageHeader">
-                <input class="backArrow" type="image" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')"></input>
                 <h1 id="portfolioTitle">PORTFOLIO</h1>
+                <input class="backArrow" type="image" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')"></input>
             </div>
             <div id="eivContainer" class="projectContainer">                      
                 <img id="eivImage" alt="EIV Quiz image" src="Images/2019-10-22 17_33_06-EIV Quiz.jpg" height="424" width="580">
@@ -65,8 +67,8 @@
 <!--Contact Page-->
         <section id="contactPage">
             <div class="pageHeader">
-                <input class="backArrow" type="image" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')"></input>
                 <h1 id="contactTitle">CONTACT ME</h1>
+                <input class="backArrow" type="image" src="Images/arrow.png" width="90" height="56" onclick="showSection('aboutMePage')"></input>
             </div>
             <div class="contact">
                 <ul class="contacts">
@@ -79,5 +81,6 @@
         </section>
     </main>
     <script src="./portfolio.js"></script>
+    
 </body>
 </html>
