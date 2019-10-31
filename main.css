@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
 }
+html, body {
+    padding:0;
+    margin:0;
+    height: 100%;
+    overflow: auto;
+}
 .navBar {
     visibility: hidden;
 }
@@ -26,10 +32,8 @@ button {
 }
 body {
     border: solid  #123C69 20px;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
 }
+
 #innerBodyBorder {
     border: solid rgb(26, 108, 155) 7px;
     width: 100%;
@@ -102,8 +106,7 @@ button:hover {
 }
 .menu a{
     margin: 20px;
-    font-size: 22px;
-    font-weight: bold;
+    font: bolder 22px 'Gentium Basic', serif;
     text-shadow: 1px 1px 0px #ededed, 4px 4px 0px rgba(0,0,0,0.15);
     color: #123c69;
 }
@@ -156,7 +159,7 @@ button:hover {
     background-color: white;
     width: 80%;
     max-width: 850px;
-    margin: 20px auto 400px; 
+    margin: 20px auto 200px; 
     padding: 5px;
 }
 #aboutMeTitle {
@@ -175,6 +178,7 @@ button:hover {
     width: 80%;
     max-width: 850px;
     margin: 20px auto; 
+    padding: 0px;
 }
 #portfolioTitle {
     margin: 0px auto;
@@ -185,14 +189,14 @@ button:hover {
 .projectContainer {
     max-width: 1000px;
     border: solid #123c69 2px;
-    margin: 20px auto 100px;
+    margin: 20px auto;
 }
 #eivImage {
     display: block;
     border: black ridge;
-    margin: auto;
+    margin: 0px auto;
     width: 90%;
-    height: 100%;
+
 }
 .projectInfo {
     margin: 0px auto;
@@ -277,14 +281,26 @@ button:hover {
     margin-bottom: 20px;
 }
 @media only screen and (max-width: 500px) {
+body {
+    border: none;
+}
+
 .menu {
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
     text-overflow: none;
+    border: dotted #123c69 5px;
+    width: 95%;
+    height: 40px;
+    margin: 10px auto;
+}
+.menu a {
+    margin: auto;
+    font-weight: bolder;
 }
 #aboutMeNav, #portfolioNav, #contactNav {
-    font-size: 13px;
+    font-size: 14px;
     text-shadow: none;
 }
 .backArrow {
@@ -311,7 +327,7 @@ h3 {
 #aboutMePage {
     border: solid #123C69 3px;
     width: 95%;
-    height: 100%;
+
     padding: 0px 10px 5px;
     margin-top: 0px;
     background-color: white;
@@ -339,7 +355,8 @@ h3 {
 #portfolioPage {
     border: solid #123c69 3px;
     width: 95%;
-    margin: 5px auto; 
+    height: 100%;
+    margin: 5px auto 20px; 
     padding: 0px;
     background-color: white;
 }
@@ -423,13 +440,29 @@ h3 {
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
 
+body {
+    border: none;
+}
+
 .menu {
-    padding-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    text-overflow: none;
+    border: dotted #123c69 7px;
+    width: 90%;
+    height: 60px;
+    margin: 10px auto;
 }
-.menu a{
-    margin: 20px;
-    font-size: 20px;
+.menu a {
+    margin: auto;
+    font-weight: bolder;
 }
+#aboutMeNav, #portfolioNav, #contactNav {
+    font-size: px;
+    text-shadow: none;
+}
+
 #outerHeader {
     width: 80%;
     max-width: 420px;
@@ -444,6 +477,7 @@ h3 {
     width: 95%;
     max-width: 720px;
     margin: 10px auto 400px; 
+    border: solid rgb(26, 108, 155) 10px;
 }
 #aboutMeTitle {
     font-size: 24px;
@@ -504,7 +538,7 @@ h3 {
     border: solid #123c69 3pt;
     width: 95%;
     max-width: 550px;
-    margin: 10px auto 400px; 
+    margin: 10px auto 50; 
     background-color: white;
 }
 #contactTitle {
